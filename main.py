@@ -77,7 +77,6 @@ async def download_image(session, url, folder):
 			print(f"Downloaded image: {url} -> {filepath}")
 			return True
 
-		# print(f"Failed to download {url}. Status code: {response.status}")
 		return False
 
 
